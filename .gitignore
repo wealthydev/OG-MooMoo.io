@@ -1,0 +1,16 @@
+# secrets
+.env
+.env.local
+
+# collected player data (IPs, user agents, GPUs) - never publish
+/hashes.txt
+
+# gameplay logs / training data (huge)
+/data/
+
+# nested duplicate checkout
+/og-moomoo/
+
+# deps & build output
+node_modules/
+dist/
